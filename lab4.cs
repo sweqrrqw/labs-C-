@@ -438,31 +438,212 @@ namespace lab3._2
                                                   flag = true;
                                                   break;
                                               }
+                                          case 2:
+                                              if (test.Perimtr_calc()<test2.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр пятиугольника больше чем у треугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр треугольника больше чем у пятиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                          case 3:
+                                              if (test.Perimtr_calc()<test3.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр шестиугольника больше чем у треугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр треугольника больше чем у шестиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                      }
+                                  } 
+                                  break;
+                              case 2:
+                                  while (true)
+                                  {
+                                      if (flag) { break; }
+                                      
+                                      Console.WriteLine("Выберите 2-ую фигуру\n");
+                                      Console.Write("1.Треугольник \n" +
+                                                        "2. Пятиугольник \n" +
+                                                        "3. Шестиугольник \n" +
+                                                        "0. Выход \n" +
+                                                        "Выберите действие ");
+                                      number = Int32.Parse(Console.ReadLine());
+                                      if (number == 0) { break;}
+
+                                      switch (number)
+                                      {
+                                          case 1:
+                                              if (test.Perimtr_calc()<test1.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр четырехугольника больше чем у треугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр треугольника больше чем у четырехугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                          case 2:
+                                              if (test1.Perimtr_calc()<test2.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр пятиугольника больше чем у четырехугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр четырехугольника больше чем у пятиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                          case 3:
+                                              if (test1.Perimtr_calc()<test3.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр шестиугольника больше чем у четырехугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр четырехугольника больше чем у шестиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                      }
+                                  } 
+                                  break;
+                              case 3:
+                                  while (true)
+                                  {
+                                      if (flag) { break; }
+                                      
+                                      Console.WriteLine("Выберите 2-ую фигуру\n");
+                                      Console.Write("1.Треугольник \n" +
+                                                        "2. Четырехугольник \n" +
+                                                        "3. Шестиугольник \n" +
+                                                        "0. Выход \n" +
+                                                        "Выберите действие ");
+                                      number = Int32.Parse(Console.ReadLine());
+                                      if (number == 0) { break;}
+
+                                      switch (number)
+                                      {
+                                          case 1:
+                                              if (test.Perimtr_calc()<test2.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр пятиугольника больше чем у треугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр треугольника больше чем у пятиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                          case 2:
+                                              if (test1.Perimtr_calc()<test2.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр пятиугольника больше чем у четырехугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр треугольника больше чем у пятиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                          case 3:
+                                              if (test2.Perimtr_calc()<test3.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр шестиугольника больше чем у пятиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр пятиугольника больше чем у шестиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                      }
+                                  } 
+                                  break;
+                              case 4:
+                                  while (true)
+                                  {
+                                      if (flag) { break; }
+                                      
+                                      Console.WriteLine("Выберите 2-ую фигуру\n");
+                                      Console.Write("1.Треугольник \n" +
+                                                        "2. Четырехугольник \n" +
+                                                        "3. Шестиугольник \n" +
+                                                        "0. Выход \n" +
+                                                        "Выберите действие ");
+                                      number = Int32.Parse(Console.ReadLine());
+                                      if (number == 0) { break;}
+
+                                      switch (number)
+                                      {
+                                          case 1:
+                                              if (test.Perimtr_calc()<test2.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр пятиугольника больше чем у треугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр треугольника больше чем у пятиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                          case 2:
+                                              if (test1.Perimtr_calc()<test2.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр пятиугольника больше чем у четырехугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр треугольника больше чем у пятиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                          case 3:
+                                              if (test2.Perimtr_calc()<test3.Perimtr_calc())
+                                              {
+                                                  Console.WriteLine("Периметр шестиугольника больше чем у пятиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("Периметр пятиугольника больше чем у шестиугольника \n");
+                                                  flag = true;
+                                                  break;
+                                              }
                                       }
                                   } 
                                   break;
                             }
-                        }
+                        } 
                         break;
-                        // try
-                        // {
-                        //     if (test.Perimtr_calc()<test3.Perimtr_calc())
-                        //     {
-                        //         Console.WriteLine("Периметр шестиугольника больше чем у треугольника");
-                        //     }
-                        //     else
-                        //     {
-                        //         Console.WriteLine("Периметр треугольника больше чем у шестиугольника");
-                        //     }
-                        //     Console.ReadKey();
-                        //     break;
-                        // }
-                        // catch 
-                        // {
-                        //     Console.WriteLine("Значения не найдены вернитесь назад");
-                        //     Console.ReadKey();
-                        //     break;
-                        // }
                 }
             }
         }
